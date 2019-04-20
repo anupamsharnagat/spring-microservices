@@ -25,7 +25,7 @@ public class ZuulLoggingFilter extends ZuulFilter{
 		
 		HttpServletRequest request = RequestContext.getCurrentContext().getRequest();
 		System.out.println("##$$ Request is {} and URi is {}==>"+request+"==uri="+request.getRequestURI());
-		logger.info("## Request is {} and URi is {}==>"+request+"==uri="+request.getRequestURI());
+		logger.info("## @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@Request is {} and URi is {}==>"+request+"==uri="+request.getRequestURI());
 
 		return null;
 	}
